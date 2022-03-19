@@ -9,13 +9,21 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
     "@strapi/plugin-graphql": "4.1.2",
     "@strapi/plugin-i18n": "4.1.2",
     "@strapi/plugin-users-permissions": "4.1.2",
+    "@strapi/provider-upload-cloudinary": "^4.1.2",
     "@strapi/strapi": "4.1.2",
-    "pg": "8.6.0"
+    "immer": "^9.0.12",
+    "koa": "^2.13.4",
+    "qs": "^6.10.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-is": "^17.0.2",
+    "react-select": "^5.2.2",
+    "redux": "^4.1.2",
+    "strapi-tiptap-editor": "^0.6.5"
   },
   "author": {
     "name": "A Strapi developer"
@@ -27,5 +35,9 @@
     "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "webpack": "^5.70.0"
+  }
 }
