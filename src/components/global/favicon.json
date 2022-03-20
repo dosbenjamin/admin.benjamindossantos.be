@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_favicons",
+  "info": {
+    "displayName": "Favicon",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "main": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
