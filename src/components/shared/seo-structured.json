@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_seo_structureds",
+  "info": {
+    "displayName": "SEO - Structured",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "json": {
+      "type": "json"
+    }
+  }
+}
