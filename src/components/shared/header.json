@@ -12,6 +12,10 @@
       "required": true,
       "maxLength": 30
     },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
     "description": {
       "type": "richtext",
       "required": true
@@ -20,10 +24,6 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.link"
-    },
-    "subtitle": {
-      "type": "string",
-      "required": true
     }
   }
 }
