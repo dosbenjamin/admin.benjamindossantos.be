@@ -4,7 +4,7 @@
   "info": {
     "singularName": "home",
     "pluralName": "homes",
-    "displayName": "Home",
+    "displayName": "Page - Home",
     "description": ""
   },
   "options": {
@@ -18,6 +18,16 @@
       "repeatable": false,
       "component": "shared.header",
       "required": true
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "structured": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo-structured"
     }
   }
 }
