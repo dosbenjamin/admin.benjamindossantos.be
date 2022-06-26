@@ -9,14 +9,14 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
     "@strapi/plugin-graphql": "4.1.2",
-    "@strapi/plugin-i18n": "4.1.2",
-    "@strapi/plugin-users-permissions": "4.1.2",
-    "@strapi/provider-upload-cloudinary": "^4.1.2",
-    "@strapi/strapi": "4.1.2",
-    "knex": "^1.0.4",
-    "pg": "^8.7.3"
+    "@strapi/plugin-i18n": "4.1.9",
+    "@strapi/plugin-users-permissions": "4.1.9",
+    "@strapi/provider-upload-cloudinary": "4.1.9",
+    "@strapi/strapi": "4.1.9",
+    "pg": "8.7.3"
   },
   "author": {
     "name": "A Strapi developer"
@@ -28,6 +28,5 @@
     "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT",
-  "packageManager": "yarn@3.2.0"
+  "license": "MIT"
 }
